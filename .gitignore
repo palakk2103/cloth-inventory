@@ -14,8 +14,6 @@ build/
 out/
 
 # ── Environment & secrets ────────────────────────────────────
-.env
-.env.*
 !.env.example
 
 # ── Logs ─────────────────────────────────────────────────────
@@ -33,7 +31,6 @@ Thumbs.db
 desktop.ini
 
 # ── Editor / IDE ─────────────────────────────────────────────
-.vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
 .idea/
@@ -59,3 +56,7 @@ coverage/
 .cache/
 tmp/
 temp/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
